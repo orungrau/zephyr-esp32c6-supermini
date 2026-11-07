@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: Apache-2.0
+
+board:
+  name: esp32c6_supermini
+  full_name: ESP32-C6 Super Mini
+  vendor: others
+  socs:
+    - name: esp32c6

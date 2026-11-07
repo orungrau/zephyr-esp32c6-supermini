@@ -1,0 +1,28 @@
+# Zephyr build output
+build/
+build-*/
+build_*/
+twister-out*/
+
+# CMake and compilation databases
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Local west workspace and Python environment
+.west/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local editor settings and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

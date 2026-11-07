@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: esp32c6_supermini/esp32c6/hpcore
+name: ESP32-C6 Super Mini HP Core
+vendor: others
+type: mcu
+arch: riscv
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+  - watchdog
+  - entropy
+  - i2c
+  - i2s
+  - dma
+  - led_strip
+  - netif:openthread
